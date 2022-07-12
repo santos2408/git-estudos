@@ -41,6 +41,11 @@ deve ser executado.
 
 ### GIT COMMIT
 
-...
+- salva as mudanças no repositório. Deve-se também passar uma mensagem como 
+argumento descrevendo a mudança que foi realizada naquele ponto específico.
+Sempre antes de executar um commit, deve-se executar o git add para adicionar 
+as mudanças no repositório.
+
+- git commit -a -m "mensagem" (comita arquivos modificados e deletados)
 
 https://git-scm.com/docs/git-commit
