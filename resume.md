@@ -41,6 +41,6 @@ deve ser executado.
 
 ### GIT COMMIT
 
-... aqui irá o git commit
+...
 
 https://git-scm.com/docs/git-commit
