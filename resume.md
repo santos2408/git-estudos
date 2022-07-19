@@ -53,6 +53,15 @@ e comitarmos as modificações ao mesmo tempo.
 
 ### GIT RM (ARQUIVO)
 
-- remove o arquivo do monitoramente do git
+- exclui o arquivo e remove do monitoramente do git
+
+### GIT MV (ARQUIVO / DESTINO)
+
+- move o arquivo de um local para outro
+- no momento do argumento de destino, pode-se passar com outro nome
+- assim o arquivo será movido e renomeado ao mesmo tempo
+
+* git mv ./css/file1.md ./dist/file1.md (movendo arquivo)
+* git mv ./css/file1.md ./dist/file-new.md (movendo e renomeando)
 
 https://git-scm.com/docs/git-commit
