@@ -46,6 +46,13 @@ argumento descrevendo a mudança que foi realizada naquele ponto específico.
 Sempre antes de executar um commit, deve-se executar o git add para adicionar 
 as mudanças no repositório.
 
-- git commit -a -m "mensagem" (comita arquivos modificados e deletados)
+- para nao usar dois comandos sempre, podemos usar o comando abaixo para adicionar 
+e comitarmos as modificações ao mesmo tempo.
+
+* git commit -a -m "mensagem" (adiciona e comita arquivos modificados e deletados)
+
+### GIT RM (ARQUIVO)
+
+- remove o arquivo do monitoramente do git
 
 https://git-scm.com/docs/git-commit
